@@ -3,10 +3,10 @@
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 # Oppdater med riktig informasjon
-id: hl7.fhir.no.mal
-canonical: http://hl7.no/fhir/ig/mal
-name: Mal
-title: "Mal"
+id: hl7.fhir.no.retina
+canonical: http://hl7.no/fhir/ig/retina
+name: Retina
+title: "Retina"
 description: Implementasjonsguide for å TODO
 status: draft
 version: 0.1.0
