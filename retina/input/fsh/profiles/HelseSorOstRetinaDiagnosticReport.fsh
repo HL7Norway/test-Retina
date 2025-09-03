@@ -38,7 +38,7 @@ Id: kIProductNameExtension
 Title: "KI Product Name ekstensjon"
 * ^context[0].type = #element
 * value[x] only string
-* valueString 1..1
+* valueString 0..1
  
 //Extensjon KI versjon algoritme    
 Extension: KIVersionAlgoritme
@@ -46,7 +46,7 @@ Id: kIVersjonAlgoritmeExtension
 Title: "KI versjon algoritme extensjon"
 * ^context[0].type = #element
 * value[x] only string
-* valueString 1..1
+* valueString 0..1
  
 //Extensjon Frist for neste undersøkelse        
 Extension: KIFristNesteUndersokelse
@@ -54,7 +54,7 @@ Id: fristNesteUndersokelseExtension
 Title: "Frist neste undersøkelse"
 * ^context[0].type = #element
 * value[x] only string
-* valueString 1..1
+* valueString 0..1
  
 //Extensjon KI protokoll        
 Extension: KIProtokoll
@@ -62,7 +62,7 @@ Id: kIprotokollExtension
 Title: "KI protokoll extensjon"
 * ^context[0].type = #element
 * value[x] only string
-* valueString 1..1
+* valueString 0..1
  
 //Ekstensjon Tiltaksstatus Forrige Undersøkelse
 Extension: RetinaTiltaksstausForrigeUndersokelseExtension
