@@ -138,6 +138,6 @@ Title: "Image Quality CodeSystem for Retinascreening"
 * ^content = #complete
 * ^status = #active
 * #2001 "God"
-* #2002  "Så vidt graderbar"
-* #2003  "Ikke graderbar"
-* #2004  "Mangler"
+* #2002 "Så vidt graderbar"
+* #2003 "Ikke graderbar"
+* #2004 "Mangler"
