@@ -12,7 +12,7 @@ Description: "This profile can send results from retinascreening"
 * conclusionCode from retinaConclusionCodeValueset
 
 Instance: ExampleRetinaDiagnosticReport
-InstanceOf: RetinaDiagnosticReport
+InstanceOf: HelseSorOstRetinaDiagnosticReport
 Title: "Example Retina DiagnosticReport"
 Description: "Example instance for RetinaDiagnosticReport profile"
 * status = #final
@@ -24,4 +24,3 @@ Description: "Example instance for RetinaDiagnosticReport profile"
 // Note: The above instance is an example and should be replaced with actual data when implementing the profile.
 // This profile is designed to be used in the context of retinascreening and includes necessary
 // extensions and value sets to ensure compliance with Helse Sør-Øst standards.
-
