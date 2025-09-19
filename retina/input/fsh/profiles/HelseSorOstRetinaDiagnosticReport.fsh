@@ -36,28 +36,28 @@ Description: "Verdisett som beskriver verdier for forløpsstatus for neste under
 Extension: KIProductName
 Id: kIProductNameExtension
 Title: "KI Product Name ekstensjon"
-* ^context[0].type = #element
+Context: Observation
 * value[x] only string
  
 //Extensjon KI versjon algoritme    
 Extension: KIVersionAlgoritme
 Id: kIVersjonAlgoritmeExtension
 Title: "KI versjon algoritme extensjon"
-* ^context[0].type = #element
+Context: Observation
 * value[x] only string
  
 //Extensjon Frist for neste undersøkelse        
 Extension: KIFristNesteUndersokelse
 Id: fristNesteUndersokelseExtension
 Title: "Frist neste undersøkelse"
-* ^context[0].type = #element
+Context: Observation
 * value[x] only string
  
 //Extensjon KI protokoll        
 Extension: KIProtokoll
 Id: kIprotokollExtension
 Title: "KI protokoll extensjon"
-* ^context[0].type = #element
+Context: Observation
 * value[x] only string
  
 //Ekstensjon Tiltaksstatus Forrige Undersøkelse
