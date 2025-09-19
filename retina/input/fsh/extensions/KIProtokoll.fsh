@@ -1,7 +1,7 @@
 Extension: KIProtokoll
 Id: kIprotokollExtension
 Title: "KI protokoll extensjon"
-Context: Observation
+Context: DiagnosticReport
 * ^context.type = #element
-* ^context.expression = "Observation"
+* ^context.expression = "DiagnosticReport"
 * value[x] only string

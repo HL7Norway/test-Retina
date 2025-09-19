@@ -1,7 +1,7 @@
 Extension: KIFristNesteUndersokelse
 Id: fristNesteUndersokelseExtension
 Title: "Frist neste undersøkelse"
-Context: Observation
+Context: DiagnosticReport
 * value[x] only string
 * ^context.type = #element
-* ^context.expression = "Observation"
+* ^context.expression = "DiagnosticReport"

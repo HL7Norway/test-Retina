@@ -4,7 +4,7 @@ Title: "Image Quality"
 Description: "A coded extension representing the quality of a diagnostic image."
 * ^status = #active
 * ^context.type = #element
-* ^context.expression = "Observation"
+* ^context.expression = "DiagnosticReport"
 * ^publisher = "Helse Sør-Øst"
 * value[x] only CodeableConcept
 * valueCodeableConcept from RetinaImageQualityValueSet (required)

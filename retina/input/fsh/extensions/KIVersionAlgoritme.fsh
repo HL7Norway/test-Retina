@@ -1,7 +1,7 @@
 Extension: KIVersionAlgoritme
 Id: kIVersjonAlgoritmeExtension
 Title: "KI versjon algoritme extensjon"
-Context: Observation
+Context: DiagnosticReport
 * ^context.type = #element
-* ^context.expression = "Observation"
+* ^context.expression = "DiagnosticReport"
 * value[x] only string

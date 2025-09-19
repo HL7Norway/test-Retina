@@ -37,6 +37,3 @@ Description: "Example instance for RetinaDiagnosticReport profile"
 * effectiveDateTime = "2024-01-01"
 * conclusionCode = RetinaConclusionCodesystem#1001 "Gradering ferdig"
 
-// Note: The above instance is an example and should be replaced with actual data when implementing the profile.
-// This profile is designed to be used in the context of retinascreening and includes necessary
-// extensions and value sets to ensure compliance with Helse Sør-Øst standards.

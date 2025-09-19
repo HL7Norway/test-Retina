@@ -4,7 +4,7 @@ Title: "Videre forløpsstudie Retina"
 Description: "Angir videre forløp"
 * ^status = #active
 * ^context.type = #element
-* ^context.expression = "Observation"
+* ^context.expression = "DiagnosticReport"
 * value[x] only CodeableConcept
 * valueCodeableConcept from VidereForlopValueSet (required)
 
