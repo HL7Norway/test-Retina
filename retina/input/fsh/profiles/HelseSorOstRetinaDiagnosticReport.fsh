@@ -1,4 +1,4 @@
-Profile: HelseSorOstRetinaDiagnosticReport
+Profile: RetinaDiagnosticReport
 Parent: DiagnosticReport
 Id: RetinaDiagnosticReport
 Title: "HSØ DiagnosticReport for Retinascreening"
