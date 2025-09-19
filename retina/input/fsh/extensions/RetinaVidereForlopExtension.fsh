@@ -3,6 +3,8 @@ Id: videreForlopExtension
 Title: "Videre forløpsstudie Retina"
 Description: "Angir videre forløp"
 * ^status = #active
+* ^context.type = #element
+* ^context.expression = "Observation"
 * value[x] only CodeableConcept
 * valueCodeableConcept from VidereForlopValueSet (required)
 

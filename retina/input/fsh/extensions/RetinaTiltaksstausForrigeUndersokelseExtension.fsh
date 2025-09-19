@@ -3,6 +3,8 @@ Id: forrigeTiltaksstatusExtension
 Title: "Titaksstaus forrige undersøkelse Retina"
 Description: "Angir om et tiltak er primært eller sekundært."
 * ^status = #active
+* ^context.type = #element
+* ^context.expression = "Observation"
 * value[x] only CodeableConcept
 * valueCodeableConcept from TiltaksstatusNesteUndersokelseValueSet (required)
 

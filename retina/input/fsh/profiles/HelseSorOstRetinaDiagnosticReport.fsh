@@ -1,7 +1,4 @@
-// declaration DiagnosticReport
 Profile: HelseSorOstRetinaDiagnosticReport
- 
-// keywords
 Parent: DiagnosticReport
 Id: RetinaDiagnosticReport
 Title: "HSØ DiagnosticReport for Retinascreening"
