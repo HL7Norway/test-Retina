@@ -36,28 +36,44 @@ Description: "Verdisett som beskriver verdier for forløpsstatus for neste under
 Extension: KIProductName
 Id: kIProductNameExtension
 Title: "KI Product Name ekstensjon"
+Description: "Extension for storing the name of the AI product used in retina screening diagnostics"
+* ^status = #active
+* ^publisher = "Helse Sør-Øst"
 * ^context[0].type = #element
+* ^context[0].expression = "DiagnosticReport"
 * value[x] only string
  
 //Extensjon KI versjon algoritme    
 Extension: KIVersionAlgoritme
 Id: kIVersjonAlgoritmeExtension
 Title: "KI versjon algoritme extensjon"
+Description: "Extension for storing the version of the AI algorithm used in retina screening diagnostics"
+* ^status = #active
+* ^publisher = "Helse Sør-Øst"
 * ^context[0].type = #element
+* ^context[0].expression = "DiagnosticReport"
 * value[x] only string
  
 //Extensjon Frist for neste undersøkelse        
 Extension: KIFristNesteUndersokelse
 Id: fristNesteUndersokelseExtension
 Title: "Frist neste undersøkelse"
+Description: "Extension for storing the deadline for the next retina screening examination"
+* ^status = #active
+* ^publisher = "Helse Sør-Øst"
 * ^context[0].type = #element
+* ^context[0].expression = "DiagnosticReport"
 * value[x] only string
  
 //Extensjon KI protokoll        
 Extension: KIProtokoll
 Id: kIprotokollExtension
 Title: "KI protokoll extensjon"
+Description: "Extension for storing the AI protocol used in retina screening diagnostics"
+* ^status = #active
+* ^publisher = "Helse Sør-Øst"
 * ^context[0].type = #element
+* ^context[0].expression = "DiagnosticReport"
 * value[x] only string
  
 //Ekstensjon Tiltaksstatus Forrige Undersøkelse
@@ -66,6 +82,9 @@ Id: forrigeTiltaksstatusExtension
 Title: "Titaksstaus forrige undersøkelse Retina"
 Description: "Angir om et tiltak er primært eller sekundært."
 * ^status = #active
+* ^publisher = "Helse Sør-Øst"
+* ^context[0].type = #element
+* ^context[0].expression = "DiagnosticReport"
 * value[x] only CodeableConcept
 * valueCodeableConcept from TiltaksstatusNesteUndersokelseValueSet (required)
  
@@ -91,6 +110,9 @@ Id: videreForlopExtension
 Title: "Videre forløpsstudie Retina"
 Description: "Angir videre forløp"
 * ^status = #active
+* ^publisher = "Helse Sør-Øst"
+* ^context[0].type = #element
+* ^context[0].expression = "DiagnosticReport"
 * value[x] only CodeableConcept
 * valueCodeableConcept from VidereForlopValueSet (required)
  
@@ -116,8 +138,9 @@ Id: retinaImageQualityExtension
 Title: "Image Quality"
 Description: "A coded extension representing the quality of a diagnostic image."
 * ^status = #active
-* ^context.type = #element
 * ^publisher = "Helse Sør-Øst"
+* ^context[0].type = #element
+* ^context[0].expression = "DiagnosticReport"
 * value[x] only CodeableConcept
 * valueCodeableConcept from RetinaImageQualityValueSet (required)
  
